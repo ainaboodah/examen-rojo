@@ -27,7 +27,7 @@
     </div>
     <div class="registration form">
       <header>Signup</header>
-      <form action="#">
+      <form action="<?php echo base_url('LoginController/checkLogin');?>" method="POST">
         <input type="text" name="email" placeholder="Enter your email" required> <!-- Added ID 'signupEmail' here -->
         <input type="password" name="mdp" placeholder="Create a password" required> <!-- Added ID 'signupPassword' here -->
         <input type="password" name="mdp" placeholder="Confirm your password" required> <!-- Added ID 'confirmPassword' here -->

@@ -1,4 +1,5 @@
 <?php
+
 class User {
     // Properties
     private $id;        // number
