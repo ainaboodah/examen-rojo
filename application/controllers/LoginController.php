@@ -21,5 +21,13 @@ class LoginController extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('pages/login.php');
-	}		
+	}	
+    public function checkLogin(){
+        $this->load->library('User');
+        $user = new User(1, 'John', 'Doe', 'Male', 'johndoe', 'password123');
+        print($user->getNom()); // Affiche "John"
+    }
+    public function codeigniter(){
+        $this->load->view('welcome_message');
+    }	
 }
