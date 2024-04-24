@@ -4,7 +4,7 @@ class User extends CI_Model{
         parent::__construct();
     }
     public function get_data(){
-        $query = $this->db->get('user');
-        return $query->result();
+        return "huhu";
     }
 }
+?>

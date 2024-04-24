@@ -13,8 +13,8 @@
     <div id="loginForm" class="login form"> <!-- Added ID 'loginForm' here -->
       <header>Login</header>
       <form action="#" method="GET">
-        <input type="text" name="pseudo" placeholder="Enter your email" required> <!-- Added ID 'loginEmail' here -->
-        <input type="password" name="mdp" placeholder="Enter your password" required> <!-- Added ID 'loginPassword' here -->
+        <input type="text" name="pseudo" placeholder="Enter your email"> <!-- Added ID 'loginEmail' here -->
+        <input type="password" name="mdp" placeholder="Enter your password"> <!-- Added ID 'loginPassword' here -->
         <a href="#">Forgot password?</a>
         <input type="submit" class="button" value="Login">
         <div id="errorDiv" style="color: red;"></div>
