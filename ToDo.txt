@@ -1,0 +1,15 @@
+Frontend NyTendry ETU002515
+Backend Aina ETU001003
+
+coté font
+	page pour login et sign up
+	page pour simulation
+	page pour tableau
+	conception base de données
+coté back
+	conception base de données
+	gestion de controller 
+	check login et insert signup 
+	insert a la base pour simulation
+	affiche tableau 
+
