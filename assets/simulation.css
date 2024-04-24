@@ -1,0 +1,86 @@
+/* Custom styles for the body */
+body {
+    background-color: #009579;
+  }
+  
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="number"],
+  form input[type="date"],
+  form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  form input[type="submit"] {
+    background-color: #009579;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #00755e;
+  }
+  
+  .bg-white {
+    background-color: #fff; 
+    border-radius: 7px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .p-3 {
+    padding: 1rem !important;
+  }
+  
+  .mt-4 {
+    margin-top: 1.5rem !important;
+  }
+  
+  .text-white {
+    color: #fff !important;
+  }
+  
+  .py-4 {
+    padding-top: 1rem !important; 
+    padding-bottom: 1rem !important; 
+  }
+  
+  h2 {
+    margin-top: 1rem; 
+  }
+  
+  .bouton {
+    background-color: #009579; /* Default background color */
+    color: #fff; /* Text color */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Font weight */
+    padding: 10px 20px; /* Padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .bouton:hover {
+    background-color: #00755e; /* Change background color on hover */
+  }
+  
